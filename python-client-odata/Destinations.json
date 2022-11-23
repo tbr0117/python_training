@@ -1,0 +1,18 @@
+{
+    "destinations": [
+        {
+            "Name": "Northwind",
+            "Type": "HTTP",
+            "Description": "Description",
+            "serviceURL": "http://services.odata.org/V2/Northwind/Northwind.svc/",
+            "Authentication": "NoAuthentication",
+            "user": "",
+            "password": "",
+            "parms": [
+                {
+                    "sap-client": "510"
+                }
+            ]
+        }
+    ]
+}

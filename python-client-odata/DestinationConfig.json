@@ -1,0 +1,96 @@
+{
+    "allowedTypes": [
+        "HTTP",
+        "LDAP",
+        "MAIL",
+        "RFC"
+      ],
+      "genCertAllowedExtensions": [
+        "PEM",
+        "P12",
+        "PFX",
+        "JKS"
+      ],
+      "genCertAllowedTimeunits": [
+        "DAYS",
+        "MONTHS",
+        "YEARS"
+      ],
+      "allowedProxyTypes": [
+        "Internet",
+        "OnPremise",
+        "PrivateLink"
+      ],
+      "allowedAuthTypesInternet": [
+        "NoAuthentication",
+        "BasicAuthentication",
+        "ClientCertificateAuthentication",
+        "OAuth2SAMLBearerAssertion",
+        "OAuth2ClientCredentials",
+        "OAuth2UserTokenExchange",
+        "OAuth2JWTBearer",
+        "OAuth2Password",
+        "OAuth2RefreshToken",
+        "SAMLAssertion"
+      ],
+      "allowedAuthTypesOnPremise": [
+        "NoAuthentication",
+        "BasicAuthentication",
+        "PrincipalPropagation",
+        "OAuth2SAMLBearerAssertion",
+        "OAuth2ClientCredentials",
+        "OAuth2UserTokenExchange",
+        "OAuth2JWTBearer",
+        "OAuth2Password",
+        "OAuth2RefreshToken",
+        "SAMLAssertion"
+      ],
+      "allowedAuthTypesPrivateLink": [
+        "NoAuthentication",
+        "BasicAuthentication",
+        "ClientCertificateAuthentication",
+        "SAMLAssertion"
+      ],
+      "allowedLdapProxyTypes": [
+        "Internet",
+        "OnPremise",
+        "PrivateLink"
+      ],
+      "allowedLdapAuthTypes": [
+        "NoAuthentication",
+        "BasicAuthentication"
+      ],
+      "allowedRfcProxyTypes": [
+        "Internet",
+        "OnPremise"
+      ],
+      "allowedMailProxyTypes": [
+        "Internet",
+        "OnPremise",
+        "PrivateLink"
+      ],
+      "allowedMailAuthTypesInternet": [
+        "NoAuthentication",
+        "BasicAuthentication",
+        "OAuth2SAMLBearerAssertion",
+        "OAuth2ClientCredentials",
+        "OAuth2UserTokenExchange",
+        "OAuth2JWTBearer",
+        "OAuth2Password",
+        "OAuth2RefreshToken"
+      ],
+      "allowedMailAuthTypesOnPremise": [
+        "NoAuthentication",
+        "BasicAuthentication",
+        "OAuth2SAMLBearerAssertion",
+        "OAuth2ClientCredentials",
+        "OAuth2UserTokenExchange",
+        "OAuth2JWTBearer",
+        "OAuth2Password",
+        "OAuth2RefreshToken"
+      ],
+      "allowedMailAuthTypesPrivateLink": [
+        "NoAuthentication",
+        "BasicAuthentication"
+      ]
+}
